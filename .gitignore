@@ -1,0 +1,19 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated local data
+ipl_2021_2024.db
+ipl_eval.db
+schema_renamed.sql
+eval_results.csv
